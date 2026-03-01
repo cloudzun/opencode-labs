@@ -48,7 +48,7 @@ opencode models
 
 AGENTS.md 是 OpenCode 的全局规则配置文件，可以定义 AI 助手的编码规范。
 
-在用户主目录创建或编辑 `~/.opencode/AGENTS.md`：
+在用户主目录创建或编辑 `~/.config/opencode/AGENTS.md`：
 
 ```markdown
 # 全局编码规范
@@ -80,16 +80,27 @@ cd library
 git init
 ```
 
-### 3.2 创建项目文件结构
+### 3.2 下载示例项目代码
 
-按照以下结构创建项目文件（或使用教师提供的代码包）：
+本实验使用微软提供的图书馆管理系统示例代码：
+
+```bash
+# 下载项目 zip 包
+curl -L -o AZ2007LabAppM2Python.zip \
+  "https://github.com/MicrosoftLearning/mslearn-github-copilot-dev/raw/refs/heads/main/DownloadableCodeProjects/Downloads/AZ2007LabAppM2Python.zip"
+
+# 解压
+unzip AZ2007LabAppM2Python.zip
+
+# 进入项目目录
+cd AccelerateDevGHCopilot/library
+```
+
+解压后的项目结构如下：
 
 ```
-library/
+AccelerateDevGHCopilot/library/
 ├── application_core/
-│   ├── loan.py
-│   ├── patron.py
-│   └── book.py
 ├── console/
 │   ├── console_app.py
 │   └── main.py
@@ -97,9 +108,7 @@ library/
 │   ├── json_data.py
 │   ├── json_loan_repository.py
 │   └── json_patron_repository.py
-├── tests/
-│   └── test_application.py
-└── AGENTS.md
+└── tests/
 ```
 
 ### 3.3 初始化 AGENTS.md
