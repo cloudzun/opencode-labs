@@ -101,14 +101,23 @@ cd AccelerateDevGHCopilot/library
 ```
 AccelerateDevGHCopilot/library/
 ├── application_core/
+│   ├── entities/           # 领域实体（Author, Book, Loan, Patron 等）
+│   ├── enums/              # 枚举类型
+│   ├── interfaces/         # 接口定义
+│   └── services/           # 业务服务实现
 ├── console/
-│   ├── console_app.py
-│   └── main.py
+│   ├── common_actions.py   # 控制台通用操作
+│   ├── console_app.py      # 控制台应用主类
+│   ├── console_state.py    # 控制台状态枚举
+│   └── main.py             # 程序入口
 ├── infrastructure/
-│   ├── json_data.py
+│   ├── Json/               # JSON 数据文件目录
+│   ├── json_data.py        # JSON 数据加载与保存
 │   ├── json_loan_repository.py
 │   └── json_patron_repository.py
 └── tests/
+    ├── test_loan_service.py
+    └── test_patron_service.py
 ```
 
 ### 3.3 初始化 AGENTS.md
@@ -131,11 +140,9 @@ OpenCode 会自动分析项目并生成适合的 AGENTS.md 文件。
 ### 3.4 验证项目可运行
 
 ```bash
-# 安装依赖（如有 requirements.txt）
-pip install -r requirements.txt
-
-# 运行测试验证
-python -m pytest tests/ -v
+# 本项目仅使用 Python 标准库，无需额外依赖
+# 直接进入下一步运行测试验证
+python3 -m unittest discover tests
 ```
 
 ---
@@ -223,7 +230,7 @@ Plan 模式用于分析和规划，不会直接修改代码。
 **深入理解业务逻辑**（在 Plan 模式下）：
 
 ```
-@application_core/loan.py 请详细解释这个文件中贷款业务逻辑的实现，包括主要类、方法和数据结构。
+@application_core/entities/loan.py 请详细解释这个文件中贷款业务逻辑的实现，包括主要类、方法和数据结构。
 ```
 
 Plan 模式下 OpenCode 会仔细分析代码但不做任何修改。
