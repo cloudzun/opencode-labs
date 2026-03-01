@@ -8,6 +8,7 @@
 |------|----------|------|
 | LAB-02 | [使用 OpenCode 分析与理解 Python 代码库](./LAB-02-analyze-document-code.md) | ✅ 已验证 |
 | LAB-03 | [使用 OpenCode 开发新功能](./LAB-03-develop-code-features.md) | ✅ 已验证 |
+| LAB-04 | [使用 OpenCode 开发单元测试](./LAB-04-develop-unit-tests.md) | ✅ 已验证 |
 
 ## 关于本项目
 
