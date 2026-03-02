@@ -368,6 +368,30 @@ services.AddScoped<IFileStorageService, AzureBlobStorageService>();
 
 ---
 
-**实验手册版本**：2.0（重写版）  
+---
+
+## 附录 C：验证报告摘要
+
+**验证日期**：2026-03-02  
+**验证方式**：按 v2.0 手册 Prompt 逐步执行，OpenCode 自动生成全部代码  
+**初始状态**：干净的 ContosoDashboard 克隆（SqlServer + Azure AD 依赖）
+
+### 验证结果
+| Phase | 编译状态 | 新增文件 |
+|-------|---------|---------|
+| Phase 1（SQLite 迁移）| 3 警告 0 错误 | 0 |
+| Phase 2（Foundation）| 3 警告 0 错误 | 7 个（模型 + 服务）|
+| Phase 3（US1）| 3 警告 0 错误 | 3 个（页面 + 导航+JS）|
+| 数据库迁移 | 成功 | 迁移文件 1 个 |
+
+### 验证结论
+✅ **v2.0 手册质量合格**：所有代码由 OpenCode 自动生成，编译 0 错误，数据库迁移成功。
+
+**完整验证报告**：`/home/chengzh/clawd/opencode-labs/lab13-validation/VALIDATION-REPORT.md`
+
+---
+
+**实验手册版本**：2.0（已验证）  
 **适用课程**：OpenCode SDD 进阶（LAB-13）  
-**前置实验**：LAB-12（Greenfield SDD）
+**前置实验**：LAB-12（Greenfield SDD）  
+**验证日期**：2026-03-02
