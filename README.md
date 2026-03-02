@@ -14,6 +14,7 @@
 | LAB-07 | [使用 OpenCode 多代理并行重构重复代码](./LAB-07-consolidate-duplicate-code.md) | ✅ 已验证 |
 | LAB-08 | [使用 OpenCode 子代理分析模式重构大型函数](./LAB-08-refactor-large-functions.md) | ✅ 已验证 |
 | LAB-09 | [使用 OpenCode 自定义 Agent 简化复杂条件语句](./LAB-09-simplify-complex-conditionals.md) | ✅ 已验证 |
+| LAB-10 | [使用 OpenCode 自定义 Agent 实现性能分析优化](./LAB-10-implement-performance-profiling.md) | ✅ 已验证 |
 
 ## 关于本项目
 
