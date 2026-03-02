@@ -11,6 +11,7 @@
 | LAB-04 | [使用 OpenCode 开发单元测试](./LAB-04-develop-unit-tests.md) | ✅ 已验证 |
 | LAB-05 | [使用 OpenCode 重构改进代码质量](./LAB-05-refactor-improve-code.md) | ✅ 已验证 |
 | LAB-06 | [使用 OpenCode Vibe Coding 开发电商原型](./LAB-06-vibe-coding-ecommerce.md) | ✅ 已验证 |
+| LAB-07 | [使用 OpenCode 多代理并行重构重复代码](./LAB-07-consolidate-duplicate-code.md) | ✅ 已验证 |
 
 ## 关于本项目
 
