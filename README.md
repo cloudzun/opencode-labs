@@ -18,6 +18,7 @@
 | LAB-11 | [使用 OpenCode 安全审计 Agent 检测修复漏洞](./LAB-11-security-vulnerability-detection-remediation.md) | ✅ 已验证 |
 | LAB-12 | [使用 OpenCode 实现规格驱动开发（绿地项目）](./LAB-12-spec-driven-development-greenfield.md) | ✅ 已验证 |
 | LAB-13 | [使用 OpenCode 为现有项目实现规格驱动开发（Brownfield）](./LAB-13-spec-driven-development-brownfield.md) | ✅ 已验证 |
+| LAB-14 | [综合实战：AI 驱动完整软件工程周期](LAB-14-capstone-project.md) | ✅ 已发布 |
 
 ## 关于本项目
 
