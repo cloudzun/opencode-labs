@@ -15,6 +15,7 @@
 | LAB-08 | [使用 OpenCode 子代理分析模式重构大型函数](./LAB-08-refactor-large-functions.md) | ✅ 已验证 |
 | LAB-09 | [使用 OpenCode 自定义 Agent 简化复杂条件语句](./LAB-09-simplify-complex-conditionals.md) | ✅ 已验证 |
 | LAB-10 | [使用 OpenCode 自定义 Agent 实现性能分析优化](./LAB-10-implement-performance-profiling.md) | ✅ 已验证 |
+| LAB-11 | [使用 OpenCode 安全审计 Agent 检测修复漏洞](./LAB-11-security-vulnerability-detection-remediation.md) | ✅ 已验证 |
 
 ## 关于本项目
 
