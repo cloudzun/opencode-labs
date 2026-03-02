@@ -6,6 +6,7 @@
 
 | 编号 | 实验名称 | 状态 |
 |------|----------|------|
+| LAB-01 | [OpenCode 快速上手：掌握 AI 辅助开发的核心操作](LAB-01-opencode-quickstart.md) | ✅ 已发布 |
 | LAB-02 | [使用 OpenCode 分析与理解 Python 代码库](./LAB-02-analyze-document-code.md) | ✅ 已验证 |
 | LAB-03 | [使用 OpenCode 开发新功能](./LAB-03-develop-code-features.md) | ✅ 已验证 |
 | LAB-04 | [使用 OpenCode 开发单元测试](./LAB-04-develop-unit-tests.md) | ✅ 已验证 |
